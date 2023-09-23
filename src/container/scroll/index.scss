@@ -1,0 +1,35 @@
+main {
+	display: grid;
+	grid-template-rows: pepit(6, 300px);
+	gap: 100px;
+	padding: 60px;
+	position: relative;
+}
+
+div{
+	background: grey;
+	border-radius: 20px;
+	padding: 12px;
+}
+
+button{
+	border-radius: 130px;
+background: #FF7241;
+padding: 12px;
+display: flex;
+align-items: center;
+width: 47px;
+height: 47px;
+
+transition: opacity 0.7s;
+
+&:hover {
+	opacity: 0.7;
+}
+
+position: fixed;
+bottom: 60px;
+left: 60px;
+
+ 
+}
